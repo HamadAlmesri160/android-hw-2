@@ -1,0 +1,55 @@
+public class Main{
+
+     public static void main(String []args){
+       
+        int [] studentPercentage = {45,90,30,80,84,69,92,63,70};
+        
+        char[]letterGrade = new char [10];
+        
+        int i=0;
+       
+        while
+        (i<=11)
+        {
+            letterGrade [i] = newgrade (studentPercentage [i]);
+            
+            System.out.println (letterGrade [i]);
+            i++;
+        }
+     }
+     
+     
+     
+     
+     
+     
+     
+     
+     public static char newgrade(int Grades){
+         
+         
+         if(Grades > 90){
+             return 'A';
+         }
+         
+         else if (Grades > 80){
+             return 'B';
+         }
+         
+         
+         else if (Grades > 70){
+             return 'C';
+         }
+         
+         
+         
+         else if (Grades>60){
+             return 'D';
+         }
+         
+         
+         
+         else 
+         return 'F';
+     }
+}
